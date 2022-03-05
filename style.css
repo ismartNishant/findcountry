@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Inter:wght@200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&family=Smooch&display=swap");
+
+/* font-family: 'Aladin', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Smooch', cursive; */
+nav{
+    z-index: 99;
+    position: fixed;
+}
+.navbar-brand {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+.navbar-brand i {
+  color: #06cc80;
+}
+.search-field {
+  padding: 5rem 5rem 0rem 5rem;
+}
+.country {
+  padding: 1rem 10rem;
+  justify-content: space-between;
+}
+.country .card img{
+    border: 1px solid #8b8b8b5b;
+}
+.country .card {
+  text-align: center;
+  width: 18rem;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px #949393;
+}
+.country .card .card-text {
+  color: #666;
+}
+.country .card .list-group li {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.container-fluid .list-of {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-fluid .list-of li {
+  font-size: 0.6rem;
+}
+.country .card a{
+    text-decoration: none;
+    color: #06cc80;
+    font-size: 1rem;
+    transition: all .5s ease-in-out;
+}
+.country .card a:hover{
+  font-size: 1.5rem;
+}
+.container-fluid h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  background: rgba(82, 80, 80, 0.075);
+}
+
+@media (max-width: 1100px) {
+  .navbar-brand {
+    font-size: 3.5rem;
+  }
+  .search-field {
+    padding:8rem 8rem 0rem 8rem;
+  }
+  .form-control {
+    padding: 0.8rem 0.75rem;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .btn {
+    line-height: 1;
+    padding: 0.375rem 0.75rem;
+    font-size: 2rem;
+  }
+  .country {
+    padding: 2rem 5rem;
+  }
+  .country .card {
+    width: 25rem;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .search-field {
+    padding: 8rem 4rem 0rem 4rem;
+  }
+  .country {
+    padding: 2rem;
+  }
+  .country .card {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-brand {
+    font-size: 2.3rem;
+  }
+  .search-field {
+    padding: 5rem 3rem 0rem 3rem;
+  }
+  .form-control {
+    padding: 0.6rem 0.75rem;
+    font-size: 1.3rem;
+  }
+  .btn {
+    font-size: 1.3rem;
+  }
+  .country {
+    padding: 1rem;
+  }
+  .card {
+    margin: 1rem auto;
+  }
+ 
+  input::placeholder {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .search-field {
+    padding: 4rem 1rem 0rem 1rem;
+  }
+  .form-control {
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
